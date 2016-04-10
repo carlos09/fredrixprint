@@ -83,6 +83,59 @@
   text-transform: uppercase;
 }
 
+/* -- Creative */
+#category-header.creative-heading h2.title {
+  font-size: 46px;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-family: 'Geosans Light';
+}
+
+#category-header.creative-heading h5.sub-title {
+  font-family: 'Bebas Neue';
+  font-size: 70px;
+  line-height: 70px;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+/* -- Our Canvas */
+#category-header.our-canvas h2.title {
+  font-size: 25px;
+  line-height: 1.5;
+  font-family: 'Geosans Light';
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+#category-header.our-canvas h5.sub-title {
+  font-size: 25px;
+  line-height: 1.5;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+#category-header.our-canvas h5.sub-title span.red {
+  color: #e30613;
+}
+
+/* -- Wood */
+#category-header.wood h2.title {
+  font-size: 25px;
+  line-height: 1.5;
+  font-family: 'Geosans Light';
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+#category-header.wood h5.sub-title {
+  font-size: 70px;
+  line-height: 1.1;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue';
+}
+
 /* Menu */
 .fm-menu-links a {
   font-size: 32px;
