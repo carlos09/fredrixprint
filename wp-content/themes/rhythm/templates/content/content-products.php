@@ -16,23 +16,15 @@
 			) );
 		?>
 		<?php
-		  $args = array( 'post_type' => 'Product Set', 'posts_per_page' => 3 );
+		  $args = array( 'post_type' => 'Product Set');
 		  $loop = new WP_Query( $args );
 			$pagetitle = isset( $post->post_title ) ? $post->post_title : '';
 
 		  while ( $loop->have_posts() ) : $loop->the_post();
 			$title = get_field('product_set_title');
-			echo "The title is: ".$title."<br />";
-
-			echo "And page title is: ".$pagetitle."<br />";
 
 			while ( $pagetitle == $title) :
 		  ?>
-			<?php
-			echo "2. The title is: ".$title."<br />";
-
-			echo "2. And page title is: ".$pagetitle."<br />";
-			?>
 		<?php if( have_rows('product_set') ):
 		  $c = 0;
 		  ?>
