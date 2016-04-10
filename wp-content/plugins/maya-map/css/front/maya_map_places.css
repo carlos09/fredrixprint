@@ -1,0 +1,75 @@
+.clear {
+
+    clear: both;
+
+}
+
+#maya_map_canvas {
+
+    float: left;
+
+    height: 400px;
+
+    width: 80%;
+
+}
+#maya_map_canvas img{max-width: none !important; }
+
+#maya_map_canvas.full-width-map-canvas{width:100%;}
+
+#no_places {
+
+    background: none repeat scroll 0 0 #EEEEEE;
+
+    float: left;
+
+    font-family: arial;
+
+    font-size: 2em;
+
+    padding: 2em 0;
+
+    text-align: center;
+
+    width: 80%;
+
+}
+
+#maya_map_categories {
+
+    background: none repeat scroll 0 0 #EEEEEE;
+
+    float: right;
+
+    padding: 1%;
+
+    width: 18%;
+
+}
+
+#maya_map_categories .maya_map_category {
+
+    background: none repeat scroll 0 0 #009DD9;
+
+    border-bottom: 1px solid #CCCCCC;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    font-family: arial;
+
+    font-size: 0.8em;
+
+    font-weight: bold;
+
+    padding: 3%;
+
+}
+
+#maya_map_categories .chevron_map_category.current {
+
+    background: none repeat scroll 0 0 #A2172A;
+
+}
+

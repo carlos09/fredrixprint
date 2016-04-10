@@ -1,0 +1,109 @@
+#maya_map_options_wrapper{
+    padding: 1%;
+    
+}
+#maya_map_options_wrapper .main_title{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+#maya_map_options_wrapper .option_section{
+    margin: 50px 0;
+    
+    padding: 0.8em;
+    border: 1px solid #ccc;
+}
+#maya_map_options_wrapper .option_section .option_seciton_title {
+font-size: 1.3em;
+text-transform: uppercase;
+}
+#maya_map_options_wrapper .option_section .field{
+    margin: 25px 0;
+    
+}
+#maya_map_options_wrapper .option_section .field input.text_field{
+    width: 25%;
+    
+    padding: 0.6%;
+    -webkit-box-shadow: inset 0 0 54px #eee;
+     -moz-box-shadow: inset 0 0 54px #eee;
+      -o-box-shadow: inset 0 0 54px #eee;
+       -ms-box-shadow: inset 0 0 54px #eee;
+    box-shadow: inset 0 0 54px #eee;
+}
+#maya_map_options_wrapper .option_section .field .input_description{
+    display: block;
+    
+    color: #666;
+    font-size: 11px;
+    font-style: italic;
+}
+#maya_map_options_wrapper .admin_center_map iframe{
+    width:100%;
+    height:350px;
+    border:none;
+}
+#maya_map_options_wrapper .maya_map_custom_marker_img{
+    display: inline;
+    
+    margin-left: 25px;
+    border: 1px solid #ccc;
+    padding: 25px;
+    background: #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.maya_map_marker_labels{
+    background: red;
+    color:#fff;
+    padding:3px;
+}
+.important {
+display: block;
+color: darkorange;
+}
+
+.suc{
+     color: green;
+    font-size: 14px;
+    font-weight: bold;
+}
+.partially_suc{
+    color: orange;
+    font-size: 14px;
+    font-weight: bold;
+}
+.failed_rows_wrapper{
+    margin:10px 0 20px;
+}
+.failed_rows_wrapper .failed_rows_wrapper_show{
+    background: #A7270F;
+    
+    width: 105px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: #eee;
+    cursor: pointer;
+}
+.failed_rows_wrapper table{
+    width: 70%;
+    
+}
+.failed_rows_wrapper table td{
+    background: #eee;
+    
+    padding: 4px;
+}
+.failed_rows_wrapper table th{
+    background: #ccc;
+    
+    padding: 4px;
+}
+.failed_rows_wrapper table tr{
+    text-align: left;
+    
+}
