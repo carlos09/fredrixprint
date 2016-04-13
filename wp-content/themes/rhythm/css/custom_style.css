@@ -402,14 +402,14 @@ ul.hub-filters {
 }
 
 ul.hub-filters li {
-    width: 30%;
     text-align: center;
-    margin: 10px;
     background-color: #fff;
     border: 1px solid #000;
     -webkit-transition: all 0.9s ease;
     -moz-transition: all 0.9s ease;
     transition: all 0.9s ease;
+    margin: 5px;
+    width: calc(33.33% - 10px);
 }
 
 ul.hub-filters li:hover {

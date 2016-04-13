@@ -79,12 +79,14 @@ $member_level = SwpmMemberUtils::get_logged_in_members_level();
 				      </div>
 				    </div>
 				    <div class="row hub-items">
-		            <?php while( have_rows('hub_product') ): the_row();
+		            <?php $i = 0;
+                while( have_rows('hub_product') ): the_row();
 		              $title = get_sub_field('product_title');
 		              $image = get_sub_field('product_image');
 		              $link = get_sub_field('zip_link');
 
 									$image = $image['url'];
+
 		              ?>
 									<div class="col-sm-3">
 										<div class="well text-center">
@@ -95,7 +97,10 @@ $member_level = SwpmMemberUtils::get_logged_in_members_level();
 										</div>
 									</div>
 
-		            <?php endwhile ?>
+		            <?php
+                $i++;
+                if ($i%4 == 0) echo '</div><div class="row hub-items">';
+                endwhile ?>
 
 				    </div>
 				  </div>
