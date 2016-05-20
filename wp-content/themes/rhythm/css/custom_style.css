@@ -83,6 +83,10 @@
   text-transform: uppercase;
 }
 
+.product-shots .wpb_column {
+  margin: 0;
+}
+
 /* -- Creative */
 #category-header.creative-heading h2.title {
   font-size: 46px;
@@ -561,4 +565,67 @@ p.pro-dixie-text {
 
 .em-vid {
     margin: 50px 0;
+}
+
+#find-us,
+#find-us .section-title,
+#find-us .ci-title,
+#find-us .ci-text {
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+}
+
+#find-us {
+  margin-bottom: 60px;
+}
+
+#find-us .section-title {
+  margin-bottom: 25px;
+  margin-top: 60px;
+  font-size: 28px;
+}
+
+#find-us .ci-title {
+  font-size: 16px;
+}
+
+#find-us .ci-text {
+  font-size: 20px;
+}
+/* Footer */
+footer .footer-social-links {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+footer .footer-social-links a {
+  font-size: 26px;
+  line-height: 45px !important;
+  width: 45px;
+  height: 45px;
+  margin: 0 15px;
+}
+
+footer .footer-social-links a:hover:before {
+  background-color: #ee1c24;
+  border-color: #ee1c24;
+}
+footer.page-section {
+  padding-top: 80px;
+}
+footer .menu li {
+  width: 20%;
+  display: inline-block;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer .menu li a {
+  font-size: 22px;
+  color: #000;
+}
+
+footer .menu li a:hover {
+  color: #ee1c24;
 }

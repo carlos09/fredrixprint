@@ -13,6 +13,10 @@
 		<!-- Foter -->
 		<footer class="page-section bg-gray-lighter footer pb-60">
 			<div class="container">
+				<?php dynamic_sidebar( 'socialmedia' ); ?>
+				<?php dynamic_sidebar( 'pre-footer' ); ?>
+			</div>
+			<div class="container">
 
 				<!-- Footer Logo -->
 				<?php if (ts_get_opt('footer-logo-enable')): ?>
@@ -27,7 +31,7 @@
 					<div class="footer-social-links mb-110 mb-xs-60">
 						<?php rhythm_social_links('%s',ts_get_opt('footer-social-icons-category')); ?>
 					</div>
-					<!-- End Social Links --> 
+					<!-- End Social Links -->
 				<?php endif; ?>
 
 				<!-- Footer Text -->
@@ -39,7 +43,7 @@
 						<?php echo ts_get_opt('footer-small-text-content'); ?>
 					</div>
 				</div>
-				<!-- End Footer Text --> 
+				<!-- End Footer Text -->
 			 </div>
 
 			 <!-- Top Link -->

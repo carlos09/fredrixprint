@@ -1,5 +1,5 @@
 <?php
-/* 
+/*
  * Modern header layout
  */
 ?>
@@ -7,7 +7,9 @@
 <?php if (ts_get_opt('header-enable-switch') == 1): ?>
 	<!-- Logo -->
 	<div class="fm-logo-wrap local-scroll">
-		<?php rhythm_logo('logo', get_template_directory_uri().'/images/fm-logo.png'); ?>
+		<?php /* rhythm_logo('logo', get_template_directory_uri().'/images/fm-logo.png'); */?>
+		<a class="logo" href="http://carlosesquer.com/fredrix/" title="Fredrix Artist Canvas">
+		<img src="http://carlosesquer.com/fredrix/wp-content/uploads/2015/12/fredrix-logo.png" alt="Fredrix Artist Canvas">	</a>
 	</div>
 	<!-- End Logo -->
 
@@ -20,7 +22,7 @@
 		<div class="fm-wrapper-sub">
 			<div class="fm-wrapper-sub-sub">
 
-				<?php 
+				<?php
 				$menu = '';
 				if( is_singular() ) {
 					$menu = ts_get_post_opt('header-primary-menu');
@@ -40,7 +42,7 @@
 				?>
 
 				<?php if (ts_get_opt('header-enable-search')): ?>
-					<ul class="fm-menu-links local-scroll fm-menu-search">	
+					<ul class="fm-menu-links local-scroll fm-menu-search">
 						<li>
 							<!-- Search -->
 							<a href="#" class="fm-has-sub"><?php _e('Search','rhythm');?> <i class="fa fa-angle-down"></i></a>
@@ -61,7 +63,7 @@
 						</li>
 					</ul>
 				<?php endif; ?>
-	
+
 				<?php if (ts_get_opt('header-enable-social-icons')): ?>
 					<!-- Social Links -->
 					<div class="fm-social-links">

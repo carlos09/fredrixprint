@@ -20,11 +20,12 @@ ts_get_title_wrapper_template_part();
 		<?php get_template_part('templates/global/page-before-content'); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'templates/content/content','page' ); ?>
-			<?php
+			<?php /*
 				// If comments are open or we have at least one comment, load up the comment template
 				if ( ts_get_opt('page-comments-enable') == 1 && (comments_open() || get_comments_number()) ) :
 					comments_template();
 				endif;
+				*/
 			?>
 		<?php endwhile; // end of the loop ?>
 		<?php get_template_part('templates/global/page-after-content'); ?>
